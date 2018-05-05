@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.u-margin-top-larger {
+  margin-top: 12rem !important; }
+
+.u-margin-top-large {
+  margin-top: 8rem !important; }
+
+.u-margin-top-bigger {
+  margin-top: 6rem !important; }
+
+.u-margin-top-big {
+  margin-top: 4rem !important; }
+
+.u-margin-top-mid {
+  margin-top: 2rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-bottom-larger {
+  margin-bottom: 12rem !important; }
+
+.u-margin-bottom-large {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-bigger {
+  margin-bottom: 6rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-mid {
+  margin-bottom: 2rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-topBottom-larger {
+  margin: 12rem 0 !important; }
+
+.u-margin-topBottom-large {
+  margin: 8rem 0 !important; }
+
+.u-margin-topBottom-bigger {
+  margin: 6rem 0 !important; }
+
+.u-margin-topBottom-big {
+  margin: 4rem 0 !important; }
+
+.u-margin-topBottom-mid {
+  margin: 2rem 0 !important; }
+
+.u-margin-topBottom-small {
+  margin: 1.5rem 0 !important; }
+
+.u-center {
+  text-align: center !important; }
+
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir"; }
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  visibility: visible;
+  opacity: 1;
+  transition: background 0.2s ease-in-out, visibility 0.2s ease-in-out, opacity .2s ease-in-out; }
+
+#container {
+  margin: 20px auto;
+  max-width: 600px; }
+
+h1 {
+  text-align: center;
+  line-height: 1.1;
+  font-weight: normal;
+  color: white;
+  background: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+  transition: background 0.2s ease-in-out; }
+
+#colorDisplay {
+  font-size: 200%; }
+
+#message {
+  display: inline-block;
+  width: 20%; }
+
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black; }
+
+.selected {
+  color: white;
+  background: steelblue; }
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  outline: none; }
+
+button:hover {
+  color: white;
+  background: steelblue; }
+
+.disable {
+  opacity: 0;
+  visibility: hidden; }
